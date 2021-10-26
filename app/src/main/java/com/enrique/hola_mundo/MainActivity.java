@@ -7,7 +7,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
-
+/**
+ * author Enrique García-Palacios Blasco
+ */
 public class MainActivity extends AppCompatActivity {
     public Button btnsumar;
     public Button btnrestar;
@@ -103,5 +105,7 @@ public class MainActivity extends AppCompatActivity {
                 txtResultado.setText(null);
             }
         });
+
+        //final de la practica
     }
 }
